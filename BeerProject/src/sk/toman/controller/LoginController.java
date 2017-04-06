@@ -25,11 +25,11 @@ public class LoginController extends HttpServlet{
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-		String name = request.getParameter("name");
+		String pass = request.getParameter("pass");
 		LoginModel loginModel = new LoginModel();
 		
-		if(loginModel.checkLogin(name)){
-			RequestDispatcher view = request.getRequestDispatcher("MainPage.jsp");
+		if(loginModel.checkLogin(pass)){
+			RequestDispatcher view = request.getRequestDispatcher("pageMain.jsp");
 			view.forward(request, response);
 		}else{
 			response.sendError(1001, "Bad username or password");

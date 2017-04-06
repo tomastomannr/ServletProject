@@ -1,9 +1,9 @@
 package sk.toman.model;
 
 public class LoginModel {
-	public boolean checkLogin(String name){
+	public boolean checkLogin(String pass){
 		System.out.println("checkLogin START");
-		if(name.equals("aaa")){
+		if(pass.equals("aaa")){
 			return true;
 		}else{
 			return false;

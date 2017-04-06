@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import sk.toman.model.*;
 
-public class BeerSelect extends HttpServlet {
+public class BeerController extends HttpServlet {
 	
 	/**
 	 * 
