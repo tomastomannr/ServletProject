@@ -3,6 +3,7 @@
   <display-name>display name</display-name>
   <welcome-file-list>
     <welcome-file>pageLogin.jsp</welcome-file>
+    <welcome-file>pageDownload.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
     <servlet-name>beerServlet</servlet-name>

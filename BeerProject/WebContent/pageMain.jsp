@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<a href="http://localhost:9999/BeerProject/pageDownload.jsp">Download servlet</a><br><br>
-<a href="http://localhost:9999/BeerProject/pageBeer.html">Beer servlet</a>
+<a href="pageDownload.jsp">Download servlet</a><br><br>
+<a href="pageBeer.html">Beer servlet</a>
 </body>
 </html>
