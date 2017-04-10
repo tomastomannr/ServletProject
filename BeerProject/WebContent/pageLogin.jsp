@@ -28,10 +28,7 @@ System.out.println("cssTag - " +cssTag);
 				<td></td>
 				<td style="text-align: right;"><input type=submit name="Submit"style="width: 100px; height: 25px; float: top;" value="Login"></td>			
 			</tr>			
-		</table>		
-		<p:button outcome="productDetail" value="Bookmark" icon="ui-icon-star">
-    		<f:param name="productId" value="10" />
-		</p:button>
+		</table>			
 	</form>
 </body>
 </html>
