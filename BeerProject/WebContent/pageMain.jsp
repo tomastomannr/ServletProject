@@ -10,6 +10,7 @@
 
 <a href="pageDownload.jsp">Download servlet</a><br><br>
 <a href="pageBeer.html">Beer servlet</a><br><br>
-<a href="pageLogin.jsp">Späť</a>
+<a href="pageLogin.jsp">Späť</a><br><br>
+<a href="pageDB.jsp">DB</a>
 </body>
 </html>
